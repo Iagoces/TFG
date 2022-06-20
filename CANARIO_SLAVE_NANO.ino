@@ -21,6 +21,6 @@ void Read_Lum(){
 
 void loop(){
    delay(2000);
-  //Le o valor do sensor e divide por 4 para poder enviar um de 8 bits que é o suportado pelo I2C
-   sensorValue = analogRead(analogInPin)/4;
+  //Le o valor do sensor
+   sensorValue = analogRead(analogInPin);
 }
